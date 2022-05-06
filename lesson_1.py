@@ -49,7 +49,6 @@ class Car(Transport):  # Чертеж
 def f():  # Обычная функция
     print("hello")
 
-
 class Truck(Car):
 
     def __init__(self, model, year, color, chair, penalties, load_capacity):
